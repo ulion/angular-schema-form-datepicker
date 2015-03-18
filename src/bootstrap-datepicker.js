@@ -24,5 +24,14 @@ angular.module('schemaForm').config(
       'datepicker',
       'directives/decorators/bootstrap/datepicker/datepicker.html'
     );
+    schemaFormDecoratorsProvider.addMapping(
+      'bootstrapDecorator',
+      'timepicker',
+      'directives/decorators/bootstrap/datepicker/timepicker.html'
+    );
+    schemaFormDecoratorsProvider.createDirective(
+      'timepicker',
+      'directives/decorators/bootstrap/datepicker/timepicker.html'
+    );
   }
 ]);
